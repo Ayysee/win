@@ -1,0 +1,59 @@
+player.onChat("run", function () {
+	
+})
+loops.forever(function () {
+	
+})
+loops.forever(function () {
+    mobs.kill(
+    mobs.target(ALL_PLAYERS)
+    )
+})
+gameplay.setGameMode(
+SURVIVAL,
+mobs.target(ALL_PLAYERS)
+)
+gameplay.setGameMode(
+CREATIVE,
+mobs.target(LOCAL_PLAYER)
+)
+mobs.give(
+mobs.target(LOCAL_PLAYER),
+ENDER_PEARL,
+16
+)
+mobs.give(
+mobs.target(LOCAL_PLAYER),
+BEDROCK,
+64
+)
+mobs.give(
+mobs.target(LOCAL_PLAYER),
+NETHERITE_HELMET,
+1
+)
+mobs.give(
+mobs.target(LOCAL_PLAYER),
+NETHERITE_CHESTPLATE,
+1
+)
+mobs.give(
+mobs.target(LOCAL_PLAYER),
+NETHERITE_LEGGINGS,
+1
+)
+mobs.give(
+mobs.target(LOCAL_PLAYER),
+NETHERITE_BOOTS,
+1
+)
+mobs.give(
+mobs.target(LOCAL_PLAYER),
+NETHERITE_PICKAXE,
+1
+)
+mobs.give(
+mobs.target(LOCAL_PLAYER),
+SPAWN_WARDEN,
+64
+)
